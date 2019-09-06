@@ -50,28 +50,28 @@ formatter.match({
   "location": "Stepdefinition.user_hit_the_automation_practice_website()"
 });
 formatter.result({
-  "duration": 9960301257,
+  "duration": 9862699336,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verifies_the_site_logo()"
 });
 formatter.result({
-  "duration": 146462881,
+  "duration": 165167017,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verifies_the_page_title()"
 });
 formatter.result({
-  "duration": 12024901,
+  "duration": 9936448,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_Signin_button_in_the_home_page_header()"
 });
 formatter.result({
-  "duration": 9231472256,
+  "duration": 3978164309,
   "status": "passed"
 });
 formatter.scenario({
@@ -118,7 +118,7 @@ formatter.match({
   "location": "Stepdefinition.user_verify_and_enters_the_email_id_jaihamsi_gmail_com_in_the_login_the_page(String)"
 });
 formatter.result({
-  "duration": 399269129,
+  "duration": 428730857,
   "status": "passed"
 });
 formatter.match({
@@ -131,21 +131,21 @@ formatter.match({
   "location": "Stepdefinition.user_verify_and_enters_the_password_in_the_login_page(String)"
 });
 formatter.result({
-  "duration": 350500176,
+  "duration": 308946198,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_signin_button_in_the_login_page()"
 });
 formatter.result({
-  "duration": 2920582304,
+  "duration": 3339532010,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verifies_the_username_Jai_hamsi_present_in_the_header()"
 });
 formatter.result({
-  "duration": 51617743,
+  "duration": 73943129,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,21 +181,21 @@ formatter.match({
   "location": "Stepdefinition.user_hover_near_women_menu_to_select_the_product_to_purchase()"
 });
 formatter.result({
-  "duration": 206625781,
+  "duration": 196125500,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_the_product_T_shirts()"
 });
 formatter.result({
-  "duration": 4381039379,
+  "duration": 3622431966,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_check_verify_whether_the_product_T_shirts_searched_is_present_or_not_inside_women_menu()"
 });
 formatter.result({
-  "duration": 60236868,
+  "duration": 62191418,
   "status": "passed"
 });
 formatter.scenario({
@@ -241,35 +241,35 @@ formatter.match({
   "location": "Stepdefinition.user_click_the_checkbox_to_select_the_size_of_the_T_shirt_in_catalog()"
 });
 formatter.result({
-  "duration": 272701294,
+  "duration": 199336061,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_hover_to_the_image()"
 });
 formatter.result({
-  "duration": 195349051,
+  "duration": 212309263,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_more_button()"
 });
 formatter.result({
-  "duration": 3797934789,
+  "duration": 3395987426,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_the_Add_to_cart_button()"
 });
 formatter.result({
-  "duration": 174764443,
+  "duration": 180410206,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_check_whether_the_product_searched_Faded_Short_Sleeve_T_shirts_text_displayed_or_not()"
 });
 formatter.result({
-  "duration": 67953015,
+  "duration": 61619071,
   "status": "passed"
 });
 formatter.scenario({
@@ -315,35 +315,35 @@ formatter.match({
   "location": "Stepdefinition.user_click_on_to_frame()"
 });
 formatter.result({
-  "duration": 1272027899,
+  "duration": 1266592105,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_the_Proceed_to_checkout_button_inside_the_frame()"
 });
 formatter.result({
-  "duration": 3058791051,
+  "duration": 3425536868,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verify_the_text_Quantity_is_present()"
 });
 formatter.result({
-  "duration": 64138594,
+  "duration": 43310834,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_the_proceed_to_checkout_in_the_shopping_cart_summary()"
 });
 formatter.result({
-  "duration": 2164049145,
+  "duration": 2603943051,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_the_proceed_to_check_out_in_addresses()"
 });
 formatter.result({
-  "duration": 2002793819,
+  "duration": 2003757039,
   "status": "passed"
 });
 formatter.scenario({
@@ -384,28 +384,28 @@ formatter.match({
   "location": "Stepdefinition.user_click_checkbox_to_agree_the_terms()"
 });
 formatter.result({
-  "duration": 181217470,
+  "duration": 185788895,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_proceed_to_checkout_in_shipping_page()"
 });
 formatter.result({
-  "duration": 1818389650,
+  "duration": 2857312563,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_pay()"
 });
 formatter.result({
-  "duration": 1539071630,
+  "duration": 1394327781,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_signout_to_come_out_of_the_application()"
 });
 formatter.result({
-  "duration": 1829704374,
+  "duration": 1780348040,
   "status": "passed"
 });
 });

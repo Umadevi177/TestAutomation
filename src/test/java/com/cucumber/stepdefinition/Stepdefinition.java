@@ -1,5 +1,7 @@
 package com.cucumber.stepdefinition;
 
+import java.io.File;
+
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import com.cucumber.base.Baseclass;
 import com.cucumber.helper.FileDataManager;
 import com.cucumber.helper.PageObjectManager;
+import com.cucumber.listener.Reporter;
 import com.cucumber.pom.AutoHomePage;
 import com.cucumber.pom.AutoLoginPage;
 import com.cucumber.pom.AutoOrderPage;
@@ -47,7 +50,9 @@ public class Stepdefinition extends Baseclass {
 	@When("^user click on Signin button in the home page header$")
 	public void user_click_on_Signin_button_in_the_home_page_header() throws Throwable {
 		clickOnWebElement(pm.getAh().getSiginbtn());
-		System.out.println(" entered into APIsmoke");
+		File ScreenShot = screenShotontheWebpage("user click on Signin button in the home page header");
+		Reporter.addScreenCaptureFromPath(ScreenShot.getAbsolutePath());
+		
 	}
 
 	@Then("^user verify and enters the email id '(.*)'  in the  login the page$")

@@ -50,28 +50,28 @@ formatter.match({
   "location": "Stepdefinition.user_hit_the_automation_practice_website()"
 });
 formatter.result({
-  "duration": 29724829863,
+  "duration": 9862699336,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verifies_the_site_logo()"
 });
 formatter.result({
-  "duration": 274064655,
+  "duration": 165167017,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verifies_the_page_title()"
 });
 formatter.result({
-  "duration": 7893185,
+  "duration": 9936448,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_Signin_button_in_the_home_page_header()"
 });
 formatter.result({
-  "duration": 2677370917,
+  "duration": 3978164309,
   "status": "passed"
 });
 formatter.scenario({
@@ -118,7 +118,7 @@ formatter.match({
   "location": "Stepdefinition.user_verify_and_enters_the_email_id_jaihamsi_gmail_com_in_the_login_the_page(String)"
 });
 formatter.result({
-  "duration": 436357963,
+  "duration": 428730857,
   "status": "passed"
 });
 formatter.match({
@@ -131,21 +131,21 @@ formatter.match({
   "location": "Stepdefinition.user_verify_and_enters_the_password_in_the_login_page(String)"
 });
 formatter.result({
-  "duration": 282410947,
+  "duration": 308946198,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_signin_button_in_the_login_page()"
 });
 formatter.result({
-  "duration": 3460755778,
+  "duration": 3339532010,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verifies_the_username_Jai_hamsi_present_in_the_header()"
 });
 formatter.result({
-  "duration": 106256060,
+  "duration": 73943129,
   "status": "passed"
 });
 formatter.scenario({
@@ -181,23 +181,22 @@ formatter.match({
   "location": "Stepdefinition.user_hover_near_women_menu_to_select_the_product_to_purchase()"
 });
 formatter.result({
-  "duration": 223904451,
+  "duration": 196125500,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_the_product_T_shirts()"
 });
 formatter.result({
-  "duration": 13261976295,
+  "duration": 3622431966,
   "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_check_verify_whether_the_product_T_shirts_searched_is_present_or_not_inside_women_menu()"
 });
 formatter.result({
-  "duration": 35082394,
-  "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d76.0.3809.132)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027UMA-PC\u0027, ip: \u0027192.168.1.18\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_201\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 75.0.3770.140 (2d9f97485c7b..., userDataDir: C:\\Users\\Uma\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:49191}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: eb119835ae16e5b6b25291cfaab495c9\n*** Element info: {Using\u003dxpath, value\u003d(//a[@title\u003d\u0027T-shirts\u0027])[1]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy16.getText(Unknown Source)\r\n\tat com.cucumber.stepdefinition.Stepdefinition.user_check_verify_whether_the_product_T_shirts_searched_is_present_or_not_inside_women_menu(Stepdefinition.java:111)\r\n\tat ✽.Then user check verify whether the product \u0027T-shirts\u0027 searched is present or not inside women menu(AutomationPractice.feature:20)\r\n",
-  "status": "failed"
+  "duration": 62191418,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 22,
@@ -242,33 +241,36 @@ formatter.match({
   "location": "Stepdefinition.user_click_the_checkbox_to_select_the_size_of_the_T_shirt_in_catalog()"
 });
 formatter.result({
-  "duration": 60582625616,
-  "error_message": "java.lang.Exception\r\n\tat com.cucumber.base.Baseclass.clickOnWebElement(Baseclass.java:141)\r\n\tat com.cucumber.stepdefinition.Stepdefinition.user_click_the_checkbox_to_select_the_size_of_the_T_shirt_in_catalog(Stepdefinition.java:121)\r\n\tat ✽.When user click the checkbox to select the size of the T-shirt in catalog(AutomationPractice.feature:23)\r\n",
-  "status": "failed"
+  "duration": 199336061,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_hover_to_the_image()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 212309263,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_more_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3395987426,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_the_Add_to_cart_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 180410206,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_check_whether_the_product_searched_Faded_Short_Sleeve_T_shirts_text_displayed_or_not()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 61619071,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 30,
@@ -313,33 +315,36 @@ formatter.match({
   "location": "Stepdefinition.user_click_on_to_frame()"
 });
 formatter.result({
-  "duration": 60520235583,
-  "error_message": "java.lang.Exception\r\n\tat com.cucumber.base.Baseclass.clickOnWebElement(Baseclass.java:141)\r\n\tat com.cucumber.stepdefinition.Stepdefinition.user_click_on_to_frame(Stepdefinition.java:155)\r\n\tat ✽.When user click on to frame(AutomationPractice.feature:31)\r\n",
-  "status": "failed"
+  "duration": 1266592105,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_the_Proceed_to_checkout_button_inside_the_frame()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3425536868,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_verify_the_text_Quantity_is_present()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 43310834,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_the_proceed_to_checkout_in_the_shopping_cart_summary()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2603943051,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_the_proceed_to_check_out_in_addresses()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2003757039,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 37,
@@ -379,26 +384,28 @@ formatter.match({
   "location": "Stepdefinition.user_click_checkbox_to_agree_the_terms()"
 });
 formatter.result({
-  "duration": 60550384736,
-  "error_message": "java.lang.Exception\r\n\tat com.cucumber.base.Baseclass.clickOnWebElement(Baseclass.java:141)\r\n\tat com.cucumber.stepdefinition.Stepdefinition.user_click_checkbox_to_agree_the_terms(Stepdefinition.java:190)\r\n\tat ✽.When user click checkbox to agree the terms(AutomationPractice.feature:38)\r\n",
-  "status": "failed"
+  "duration": 185788895,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_proceed_to_checkout_in_shipping_page()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2857312563,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_pay()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1394327781,
+  "status": "passed"
 });
 formatter.match({
   "location": "Stepdefinition.user_click_on_signout_to_come_out_of_the_application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1780348040,
+  "status": "passed"
 });
 });

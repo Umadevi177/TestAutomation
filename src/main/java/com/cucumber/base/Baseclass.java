@@ -33,7 +33,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Baseclass {
 
 	public static WebDriver driver;
-
+	
+//1.Browser Launch
 	public static WebDriver getBrowser(String browserName) throws Exception {
 		try {
 			if (browserName.equalsIgnoreCase("chrome")) {
@@ -60,7 +61,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//2.geturl
 	public static void getUrl(String url) throws Exception {
 		try {
 			driver.get(url);
@@ -70,7 +71,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//3.wait
 	public static void waitforElementVisibility(WebElement element) throws Exception {
 		try {
 			WebDriverWait wb = new WebDriverWait(driver, 60);
@@ -81,7 +82,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//4.Isdisplayed
 	public static boolean elementIsDisplayed(WebElement element) throws Exception {
 		try {
 			boolean displayed = element.isDisplayed();
@@ -92,7 +93,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//5.IsEnabled
 	public static boolean elementIsEnabled(WebElement element) throws Exception {
 		try {
 			boolean enabled = element.isEnabled();
@@ -103,7 +104,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+	//6.IsSelected
 	public static boolean elementIsSelected(WebElement element) throws Exception {
 		try {
 			boolean selected = element.isSelected();
@@ -114,7 +115,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//7.Sendkeys
 	public static void inputValuesToTheWebelement(WebElement element, String values) throws Exception {
 		try {
 			waitforElementVisibility(element);
@@ -128,6 +129,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
+	//8.click
 
 	public static void clickOnWebElement(WebElement element) throws Exception {
 		try {
@@ -141,7 +143,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//9.mouseHover
 	public static void mouseHOverToElement(WebElement element) throws Exception {
 		try {
 			waitforElementVisibility(element);
@@ -153,7 +155,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//10.DropDown
 	public static void selectDropDown(WebElement element, String value, String option) throws Exception {
 		try {
 			//waitforElementVisibility(element);
@@ -171,7 +173,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//12.scroll to WebElement
 	public static void scrollToWebelement(WebElement element) throws Exception {
 		try {
 			waitforElementVisibility(element);
@@ -184,6 +186,7 @@ public class Baseclass {
 		}
 	}
 
+	//13.Scroll using Pixels
 	public static void scrollUsingPixels(int width, int height) throws Exception {
 		try {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -194,7 +197,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//14.scroll to Bottom
 	public static void scrollToBottomOfThePage() throws Exception {
 		try {
 			JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -205,7 +208,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//15.Drag And Drop
 	public static void dragandDrop(WebElement src, WebElement tar) throws Exception {
 		try {
 			waitforElementVisibility(src);
@@ -218,7 +221,7 @@ public class Baseclass {
 		}
 
 	}
-
+//16.DoubleClick
 	public static void doubleClickOnTheElement(WebElement element) throws Exception {
 		try {
 			waitforElementVisibility(element);
@@ -231,7 +234,7 @@ public class Baseclass {
 		}
 
 	}
-
+//17.RightClick
 	public static void rightClickOnTheElement(WebElement element) throws Exception {
 		try {
 			waitforElementVisibility(element);
@@ -244,7 +247,7 @@ public class Baseclass {
 		}
 
 	}
-
+//18.AlertAccept
 	public static void alertAccept() throws Exception {
 		try {
 			Alert alert = driver.switchTo().alert();
@@ -256,7 +259,7 @@ public class Baseclass {
 
 		}
 	}
-
+//19.AlertDismiss
 	public static void alertDismiss() throws Exception {
 		try {
 			Alert alert = driver.switchTo().alert();
@@ -267,7 +270,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//20.AlertSendkeys
 	public static void alertSendKeys(String value) throws Exception {
 		try {
 			Alert alert = driver.switchTo().alert();
@@ -279,7 +282,7 @@ public class Baseclass {
 			throw new Exception();
 		}
 	}
-
+//21.switchToDefaultContent
 	public static void switchToDefaultContent() throws Exception {
 		try {
 			driver.switchTo().defaultContent();
@@ -324,12 +327,14 @@ public class Baseclass {
 		}
 	}
 
-	public static void screenShotontheWebpage(String filename) throws Exception {
+	public static File screenShotontheWebpage(String filename) throws Exception {
 		try {
-			File des = new File(System.getProperty("user.dir") + "/library/screenshot/" + filename + ".png");
+			//File des = new File(System.getProperty("user.dir") + "/library/screenshot/" + filename + ".png");
+			File des = new File(System.getProperty("user.dir") + "\\src\\test\\resource\\com\\cucumber\\extendReport\\ScreenShot" + filename + ".png");
 			TakesScreenshot ts = (TakesScreenshot) driver;
-			File screenshotAs = ts.getScreenshotAs(OutputType.FILE);
-			FileUtils.copyFile(screenshotAs, des);
+			File source = ts.getScreenshotAs(OutputType.FILE);
+			FileUtils.copyFile(source, des);
+			return des;
 		} catch (WebDriverException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

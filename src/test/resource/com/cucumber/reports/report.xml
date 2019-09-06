@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="46.159019">
-<testcase classname="User test the Automation practice with valid credentials and functionality" name="Verify user validate the automation practice home page" time="19.350261">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="41.658447">
+<testcase classname="User test the Automation practice with valid credentials and functionality" name="Verify user validate the automation practice home page" time="14.015967">
 <system-out><![CDATA[Given user hit the automation practice website..............................passed
 Then user verifies the site logo............................................passed
 And user verifies the page title............................................passed
 When user click on Signin button in the home page header....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User test the Automation practice with valid credentials and functionality" name="Verify whether user login the application with valid authentication" time="3.721969">
+<testcase classname="User test the Automation practice with valid credentials and functionality" name="Verify whether user login the application with valid authentication" time="4.151152">
 <system-out><![CDATA[Then user verify and enters the email id 'jaihamsi40@gmail.com'  in the  login the page.passed
 Then user verify and enters the password '12345' in the login page..........passed
 And user click on signin button in the login page...........................passed
 Then user verifies the username present in the header.......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User test the Automation practice with valid credentials and functionality" name="With user account the user place the order in the application with valid functionality" time="4.647902">
+<testcase classname="User test the Automation practice with valid credentials and functionality" name="With user account the user place the order in the application with valid functionality" time="3.880749">
 <system-out><![CDATA[When user hover near women menu to select the product to purchase...........passed
 And user click the  product T-shirts........................................passed
 Then user check verify whether the product 'T-shirts' searched is present or not inside women menu.passed
 ]]></system-out>
 </testcase>
-<testcase classname="User test the Automation practice with valid credentials and functionality" name="user give the product details such as size,color to place order" time="4.508703">
+<testcase classname="User test the Automation practice with valid credentials and functionality" name="user give the product details such as size,color to place order" time="4.049662">
 <system-out><![CDATA[When user click the checkbox to select the size of the T-shirt in catalog...passed
 When user hover to the image................................................passed
 And user click more button..................................................passed
@@ -28,7 +28,7 @@ And user click on the Add to cart button....................................pass
 Then user check whether the product searched 'Faded Short Sleeve T-shirts' text displayed or not.passed
 ]]></system-out>
 </testcase>
-<testcase classname="User test the Automation practice with valid credentials and functionality" name="User Proceed to checkout the product" time="8.561801">
+<testcase classname="User test the Automation practice with valid credentials and functionality" name="User Proceed to checkout the product" time="9.34314">
 <system-out><![CDATA[When user click on to frame.................................................passed
 When user click the Proceed to checkout button inside the frame.............passed
 Then user verify the text 'Quantity' is present.............................passed
@@ -36,7 +36,7 @@ And user click the proceed to checkout in the shopping cart summary.........pass
 And user click on the proceed to check out in addresses.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User test the Automation practice with valid credentials and functionality" name="User place order with terms and conditions" time="5.368383">
+<testcase classname="User test the Automation practice with valid credentials and functionality" name="User place order with terms and conditions" time="6.217777">
 <system-out><![CDATA[When user click checkbox to agree the terms.................................passed
 And user click on proceed to checkout in shipping page......................passed
 And user click on pay.......................................................passed
